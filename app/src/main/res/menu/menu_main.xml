@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/accion_editar_amigos"
+          android:title="@string/editar_amigos" />
+    <item android:id="@+id/accion_salir"
+          android:title="@string/menu_item_salir"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:title="@string/menu_camara_etiqueta"
+          android:id="@+id/accion_camara"
+          android:icon="@drawable/ic_menu_camera"
+          app:showAsAction="always" />
+    <item android:title="@string/enviar_mensaje_etiqueta"
+          android:id="@+id/accion_enviar_mensaje"
+          android:icon="@drawable/accion_nuevo_mensaje"
+          app:showAsAction="always" />
+</menu>

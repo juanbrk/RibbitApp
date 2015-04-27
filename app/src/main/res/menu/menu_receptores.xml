@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.mindsmack.ribbit.UI.ReceptoresActivity">
+    <item android:id="@+id/action_send"
+          android:title="@string/menu_accion_enviar_etiqueta"
+          android:orderInCategory="100"
+          android:visible="false"
+          android:icon="@drawable/ic_menu_send"
+          app:showAsAction="always" />
+</menu>

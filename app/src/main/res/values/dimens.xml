@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="marginVerticalLogin">32dp</dimen>
+    <dimen name="login_padding_horizontal">10dp</dimen>
+    <dimen name="login_padding_vertical">10dp</dimen>
+    <dimen name="inbox_margin_horizontal">8dp</dimen>
+    <dimen name="inbox_margin_vertical">8dp</dimen>
+    <dimen name="espaciado_grid_view_usuarios">8dp</dimen>
+</resources>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Ribbit</string>
+
+
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Amigos</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="password_hint">Enter password</string>
+    <string name="username_hint">Username</string>
+    <string name="login_button_text">INGRESAR</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="enter_email_text">Enter email adress</string>
+    <string name="signup_button_text">CREAR CUENTA</string>
+    <string name="dialogo_error_ingreso_datos_signup_titulo">Error al ingresar los datos</string>
+    <string name="dialogo_error_ingreso_signup_mensaje">Hay un error en el ingreso de los datos, aseguese de completar todos los campos</string>
+    <string name="error_login_titulo_dialogo">Error en el ingreso</string>
+    <string name="error_login_mensaje_dialogo">Ingrese su nombre de usuario y su contraseña</string>
+    <string name="menu_item_salir">Salir</string>
+    <string name="editar_amigos">Editar amigos</string>
+    <string name="title_activity_editar_amigos">Editar Amigos</string>
+    <string name="dialogo_error_buscando_amigos_titulo">Error buscando amigos</string>
+    <string name="dialogo_error_buscando_amigos_mensaje">Hubo un error buscando amigos</string>
+    <string name="inbox_vacio">No hay nuevos mensajes</string>
+    <string name="friends_empty">Agregar amigos para comenzar</string>
+    <string name="lista_amigos_vacia">Esta lista esta vacia</string>
+    <string name="menu_camara_etiqueta">Sacar foto</string>
+    <string name="error_dispositivo_almacenamiento">No se encontro ningun dispositivo de almacenamiento externo</string>
+    <string name="error_general">Hubo un error</string>
+    <string name="advertencia_peso_video">El video debe pesar menos de 10 MB</string>
+    <string name="file_not_found_exception">No se ha encontrado el archivo</string>
+    <string name="archivo_excede_limite">El archivo seleccionado supera el tamaño limite para ser enviado, por favor seleccione otro archivo</string>
+    <string-array name="opciones_camara_menu_dialogo">
+        <item>Sacar foto</item>
+        <item>Grabar video</item>
+        <item>Elegir foto existente</item>
+        <item>Elegir video existente</item>
+    </string-array>
+    <string name="title_activity_receptores">Enviar a</string>
+    <string name="no_hay_amigos_p_enviar_archivo">No se encontraron amigos</string>
+    <string name="menu_accion_enviar_etiqueta">Enviar</string>
+    <string name="error_general_titulo_dialogo">Lo sentimos, ha ocurrido un error</string>
+    <string name="error_seleccionando_archivo_dialogo">Ha ocurrido un error con el archivo seleccionado. Por favor intente nuevamente</string>
+    <string name="mensaje_enviado">El mensaje fue enviado con exito</string>
+    <string name="error_enviando_mensaje_dialogo">Ha ocurrido un error al enviar el mensaje, por favor intente nuevamente.</string>
+    <string name="enviar_mensaje_etiqueta">Enviar Mensaje</string>
+    <string name="title_activity_enviar_mensajes">Enviar Mensaje</string>
+    <string name="enviar_mensaje_etiqueta_boton">Enviar mensaje</string>
+    <string name="mensaje_vacio_toast">No se puede enviar un mensaje vacio</string>
+    <string name="title_activity_ver_imagen">Ribbit</string>
+    <string name="title_activity_leer_mensaje">Ribbit</string>
+    <string name="content_description_background_image">Ribbit backgroundImage</string>
+    <string name="nombre_app">Ribbit</string>
+    <string name="subtitulo">A treehouse project</string>
+    <string name="content_description">Ribbit backgroundImage</string>
+    <string name="sign_up">¿Todavia no tienes una cuenta en Ribbit? ¡Crea una!</string>
+    <string name="cancelar_boton_texto">CANCELAR</string>
+    <string name="divisor_botones">Divisor de botones</string>
+    <string name="toast_recargando_texto">Recargando...</string>
+    <string name="descripcion_avatar_usuario">gravatar usuario</string>
+    <string name="descripcion_usuario_checkmark">Checkmark usuario</string>
+    <string name="push_nuevo_ribbit">"Tienes un nuevo Ribbit de: %s"</string>
+</resources>

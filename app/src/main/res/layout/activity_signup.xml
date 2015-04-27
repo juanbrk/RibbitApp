@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.mindsmack.ribbit.UI.SignupActivity"
+                style="@style/AuthBackground">
+    <ImageView
+        android:id="@+id/backgroundImage"
+        style="@style/ImagenAuthBackground"/>
+    <!-- mantenemos la proporcion de la rana (o el fondo) y luego le agregamos como color por
+     default del background una porcion extra del final de nuestra imagen. Para que siempre
+     coincida -->
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/AuthTitle"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        style="@style/AuthSubtitulo"/>
+    <LinearLayout
+        android:id="@+id/camposTextosLayout"
+        style="@style/AuthContainerCamposTexto">
+        <EditText
+            android:id="@+id/usernameFieldSignup"
+            android:hint="@string/username_hint"
+            style="@style/AuthEditText"/>
+
+        <EditText
+            android:id="@+id/passwordFieldLogin"
+            style="@style/AuthEditText"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"/>
+
+        <EditText
+            android:id="@+id/emailField"
+            style="@style/AuthEditText"
+            android:inputType="textEmailAddress"
+            android:hint="@string/enter_email_text"/>
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/divisorBotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camposTextosLayout"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_divider"
+        android:contentDescription="@string/divisor_botones"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        style="@style/AuthBoton"
+        android:layout_marginRight="0dp"
+        android:text="@string/signup_button_text"
+        android:layout_below="@id/camposTextosLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/divisorBotones"/>
+    <Button
+        android:id="@+id/botonCancelar"
+        style="@style/AuthBoton"
+        android:layout_marginLeft="0dp"
+        android:text="@string/cancelar_boton_texto"
+        android:layout_below="@id/camposTextosLayout"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/divisorBotones"/>
+
+</RelativeLayout>

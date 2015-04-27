@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.mindsmack.ribbit.UI.EnviarMensajesActivity"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoMensaje"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Escribe tu mensaje"
+        android:textSize="25sp"
+        android:background="#bbffffff"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar mensaje"
+        android:id="@+id/enviar_mensaje_boton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_green_dark"/>
+</RelativeLayout>

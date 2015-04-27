@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.mindsmack.ribbit.UI.LoginActivity"
+                style="@style/AuthBackground">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        style="@style/ImagenAuthBackground"/>
+        <!-- mantenemos la proporcion de la rana (o el fondo) y luego le agregamos como color por
+         default del background una porcion extra del final de nuestra imagen. Para que siempre
+         coincida -->
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/AuthTitle"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        style="@style/AuthSubtitulo"/>
+
+    <LinearLayout
+        style="@style/AuthContainerCamposTexto"
+        android:id="@+id/layoutEditTexts">
+        <EditText
+            android:id="@+id/userNameFieldLogin"
+            style="@style/AuthEditText"/>
+
+        <EditText
+            android:id="@+id/passwordFieldLogin"
+
+            style="@style/AuthEditText"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"/>
+        </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/AuthBoton"
+        android:text="@string/login_button_text"
+        android:layout_below="@id/layoutEditTexts"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="13sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginButton"/>
+
+</RelativeLayout>

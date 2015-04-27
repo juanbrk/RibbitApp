@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_purple">#3F2466</color>
+    <color name="gris_claro">#bbbbbb</color>
+    <color name="purpura_claro_boton">#e1d2f3</color>
+    <color name="purpura_boton_apretado">#ba9dda</color>
+    <color name="purpura_boton_focus">#d6c3ed</color>
+    <color name="texto_dentro_botones">#250054</color>
+    <color name="purpura_claro_background">#e9e4ed</color>
+</resources>
